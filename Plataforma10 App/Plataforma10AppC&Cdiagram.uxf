@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>300</x>
+      <y>260</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+&lt;&lt;external&gt;&gt;
+Navegador
+Web
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>640</x>
+      <y>220</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+&lt;&lt;external&gt;&gt;
+Consumer view
+Website
+
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1030</x>
+      <y>440</y>
+      <w>160</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+&lt;&lt;repository&gt;&gt;	
+
+Trips DataBase
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>600</x>
+      <y>450</y>
+      <w>220</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+&lt;&lt;JavaCE App&gt;&gt;
+
+App, logica Plataforma10
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>180</x>
+      <y>140</y>
+      <w>1160</w>
+      <h>570</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Plataforma 10
+
+layer=-1
+bg=LIGHT_GRAY</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>260</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=()-
+</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>430</x>
+      <y>260</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=)-
+https</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>930</x>
+      <y>480</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=()-
+jdbc</panel_attributes>
+    <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>810</x>
+      <y>480</y>
+      <w>140</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=)-</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1030</x>
+      <y>550</y>
+      <w>160</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+&lt;&lt;repository&gt;&gt;	
+User DataBase
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>930</x>
+      <y>590</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=()-
+jdbc</panel_attributes>
+    <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>810</x>
+      <y>500</y>
+      <w>140</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=)-</panel_attributes>
+    <additional_attributes>110.0;110.0;90.0;110.0;90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>560</y>
+      <w>50</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>lt=)-
+</panel_attributes>
+    <additional_attributes>20.0;190.0;20.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>550</x>
+      <y>770</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;web service&gt;&gt;
+CreditCard Service
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>760</x>
+      <y>560</y>
+      <w>50</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>lt=)-
+</panel_attributes>
+    <additional_attributes>20.0;190.0;20.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>760</x>
+      <y>770</y>
+      <w>60</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>SMTP
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>350</y>
+      <w>30</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=()-
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>640</x>
+      <y>280</y>
+      <w>50</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=)-</panel_attributes>
+    <additional_attributes>20.0;60.0;20.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>690</x>
+      <y>280</y>
+      <w>50</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=)-</panel_attributes>
+    <additional_attributes>20.0;60.0;20.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>700</x>
+      <y>350</y>
+      <w>30</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=()-
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>570</x>
+      <y>380</y>
+      <w>110</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;API REST&gt;&gt;
+Check trips
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>690</x>
+      <y>370</y>
+      <w>110</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;API REST&gt;&gt;
+Reserve
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>790</x>
+      <y>280</y>
+      <w>50</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=)-</panel_attributes>
+    <additional_attributes>20.0;60.0;20.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>800</x>
+      <y>350</y>
+      <w>30</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=()-
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>820</x>
+      <y>360</y>
+      <w>110</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;API REST&gt;&gt;
+LogIn
+SignUp
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>550</y>
+      <w>170</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>lt=)-
+</panel_attributes>
+    <additional_attributes>20.0;200.0;20.0;10.0;150.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>420</x>
+      <y>770</y>
+      <w>160</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;web service&gt;&gt;
+Apple Account 
+Access
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>290</x>
+      <y>50</y>
+      <w>150</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>En Check trips
+entra viajes
+en colectivo
+y vuelos de aviones
+customelement=
+drawArc(width-25,5,10,50,50,80,false) fg=red bg=red //Parameters (x, y, width, height, start, extent, open)
+drawCircle(width-20,40,3) fg=red bg=red //Parameters (x, y, radius)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1010</x>
+      <y>330</y>
+      <w>200</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+&lt;&lt;repository&gt;&gt;	
+
+Empresas de transportes
+DataBase
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>810</x>
+      <y>380</y>
+      <w>140</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=)-</panel_attributes>
+    <additional_attributes>110.0;20.0;90.0;20.0;90.0;90.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>930</x>
+      <y>380</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=()-
+jdbc</panel_attributes>
+    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+  </element>
+</diagram>

@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>290</x>
+      <y>510</y>
+      <w>470</w>
+      <h>370</h>
+    </coordinates>
+    <panel_attributes>controller
+--
+bg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>930</x>
+      <y>210</y>
+      <w>330</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>model
+--
+bg=gray
+layer=-1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>440</x>
+      <y>160</y>
+      <w>340</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>view
+--
+bg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>310</x>
+      <y>580</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>payments
+--
+bg=orange
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>310</x>
+      <y>660</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Visualizacion
+--
+bg=orange
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>950</x>
+      <y>240</y>
+      <w>300</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>modelos
+--
+bg=PINK</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>950</x>
+      <y>390</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>dao
+--
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>370</y>
+      <w>70</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;use&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1030</x>
+      <y>360</y>
+      <w>70</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;use&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>340</y>
+      <w>180</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;use&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>300</x>
+      <y>550</y>
+      <w>450</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>servicios
+--
+layer=1
+bg=PINK</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>750</x>
+      <y>460</y>
+      <w>310</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;use&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;140.0;290.0;140.0;290.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>460</x>
+      <y>190</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Consumer view
+--
+layer=1
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>960</x>
+      <y>270</y>
+      <w>50</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>user
+--
+bg=orange
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>1050</x>
+      <y>270</y>
+      <w>70</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>product
+--
+bg=orange
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>960</x>
+      <y>320</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>payment
+--
+bg=orange
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>1050</x>
+      <y>320</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>orders
+--
+bg=orange
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>300</x>
+      <y>70</y>
+      <w>160</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>dentro de views
+esta el catalogo,
+payment, logIn, etc.
+customelement=
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>460</x>
+      <y>580</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Delivery
+--
+bg=orange
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>460</x>
+      <y>660</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Users
+--
+bg=orange
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>610</x>
+      <y>580</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Products
+--
+bg=orange
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>610</x>
+      <y>660</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Orders
+--
+bg=orange
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>1100</x>
+      <y>390</y>
+      <w>100</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>util
+--
+bg=orange
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1160</x>
+      <y>360</y>
+      <w>70</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;use&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>1140</x>
+      <y>270</y>
+      <w>90</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>deliveery
+--
+bg=orange
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>1140</x>
+      <y>320</y>
+      <w>90</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>restaurants
+--
+bg=orange
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>310</x>
+      <y>740</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>restaurants
+--
+bg=orange
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>460</x>
+      <y>280</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Restaurant views
+--
+layer=1
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>620</x>
+      <y>190</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Delivery view
+--
+layer=1
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
